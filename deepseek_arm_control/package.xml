@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>deepseek_arm_control</name>
+  <version>0.0.0</version>
+  <description>ROS2 package for controlling robot arm with DeepSeek API integration, including end effector position monitoring</description>
+  <maintainer email="1043491128@qq.com">ubuntu22</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>rosidl_default_generators</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>nlohmann_json</depend>
+  <!-- 为支持Python脚本调用添加必要的依赖 -->
+  <test_depend>ament_cmake_pytest</test_depend>
+  
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

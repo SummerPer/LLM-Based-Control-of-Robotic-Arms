@@ -1,0 +1,6 @@
+string natural_language_command
+---
+bool success
+string result_message
+float64[] target_position
+bool position_reached

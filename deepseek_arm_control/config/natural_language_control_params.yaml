@@ -1,0 +1,10 @@
+natural_language_to_arm_control_node:
+  ros__parameters:
+    # OpenAI API参数配置
+    openai_api_key: "sk-fdbxuijtfdmvjqejnzmcibygyirmxckqtzhloiwqazjghjav"
+    openai_model: "deepseek-ai/DeepSeek-V3"
+    openai_base_url: "https://api.siliconflow.cn/v1"
+    
+    # 机械臂控制参数
+    position_timeout_seconds: 5
+    movement_service_timeout_seconds: 10

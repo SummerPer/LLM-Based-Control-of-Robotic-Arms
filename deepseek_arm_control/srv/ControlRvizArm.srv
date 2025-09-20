@@ -1,0 +1,7 @@
+# 位置数组(x, y, z, qx, qy, qz, qw)
+float64[] position
+# 开合
+string open_or_close
+---
+# 是否发出成功
+bool success
